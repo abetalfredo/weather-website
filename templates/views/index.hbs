@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="inner-body-container">
+        <div class="header">
+            {{>header}}
+        </div>
+        <div class="content">
+            <p class="margin-btm-20">Please enter location</p>
+            <form action="" class="form margin-btm-20">
+                <input type="text" placeholder="Location">
+                <button type="submit">Search</button>
+            </form>
+            <p class="error-msg"></p>
+            <p class="location-msg"></p>
+            <p class="forecast-msg"><p>
+        </div>
+        <div class="footer">
+            <p>footer</p>
+        </div>
+    </div>
+    <script src="/js/app.js"></script>
+</body>
+</html>

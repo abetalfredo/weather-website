@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    letter-spacing: 0.1px;
+    background-color: #F2F2F2;
+    color: #404040;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 80%;
+}
+
+.header {
+    flex-shrink: 0;
+    background-color: #013F59;
+    color: #F2F2F2;
+    padding-top: 100px;
+}
+
+.header-container {
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.header-container li {
+    align-self: flex-end;
+}
+
+.header-container li:first-child {
+    margin-right: auto;
+}
+
+.header-container li a {
+    text-decoration: none;
+    color: #F2F2F2;
+    padding: 5px 10px;
+}
+
+.page-title-container {
+    padding: 20px;
+    background-color:#26798C;
+    color: #F2F2F2;
+}
+
+.inner-body-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 20px;
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+    background-color: #3F853B;
+    color: #E0C52B;
+    padding: 20px;
+}
+
+/* Form */
+input[type=text] {
+    padding: 5px;
+}
+
+button {
+    padding: 5px;
+    background-color: #222;
+    color: white;
+    border: 1px solid #222;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #222;
+    background-color: white;
+}
+
+/* Utility classes */
+.margin-btm-20 {
+    margin-bottom: 20px;
+}
