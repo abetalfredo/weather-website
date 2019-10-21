@@ -20,7 +20,8 @@ weatherForm.addEventListener('submit', (e) => {
       } else {
         errorMsg.textContent = ""
         locationMsg.textContent = data.location
-        forecastMsg.textContent = data.forecast.summary
+        forecastMsg.textContent = data.forecast.summary + " Humidity of " + data.forecast.humidity
+        console.log(data)
       }
     })  
   })
